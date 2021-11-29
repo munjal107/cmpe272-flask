@@ -18,7 +18,7 @@ class_dict_init = {'CNV': 0, 'DME': 1, 'DRUSEN': 2, 'NORMAL': 3}
 class_dict = dict([(v,k) for k,v in class_dict_init.items()])
 
 
-UPLOAD_FOLDER = '.\\uploads'
+UPLOAD_FOLDER = './uploads'
 
 
 def preprocess_image(path):
